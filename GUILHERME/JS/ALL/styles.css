@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.container-form{
+    margin-top: 15%;
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    padding: 45px;
+
+    margin-left: 800px;
+    margin-right: 800px;
+    font-size: 25px;
+}
+
+.input{
+    height: 20px;
+}
+
+.ValorResultado{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.button{
+ height: 30px;
+ width: 30px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+}

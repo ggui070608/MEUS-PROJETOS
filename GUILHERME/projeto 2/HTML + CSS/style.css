@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(152, 247, 247);
+    margin: 0px;
+}
+
+h1{
+    background-color: rgb(177, 218, 253);
+    color: yellow;
+    margin-top: 0px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 100%;
+    border: 10px solid black;
+
+    display: block;
+    margin: 0% auto;
+
+}
+
+p{
+    display: flex; 
+    text-align: justify;  
+    font-size: 20px;
+
+    margin-left: 220px;
+    margin-right: 220px;
+}

@@ -1,0 +1,203 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: darkblue;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    padding: 25px;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ContainerMenu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.ContainerMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.ContainerMenu a:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Ajustando a disposição da tabela */
+.tabela {
+    width: 52%;
+    border: 2px solid darkblue;
+    padding: 60px;
+}
+
+.reacao {
+    width: 40%;
+    border: 2px solid darkblue;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.elemento {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: grab;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.elemento:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+/* Criando o layout de colunas */
+.grupos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Cada grupo será uma coluna */
+.grupo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* Estilos para os grupos (cores) */
+.l1 {
+    background-color: lightblue;
+}
+
+.l2 {
+    background-color: lightgreen;
+}
+
+.l3 {
+    background-color: lightcoral;
+    margin-bottom: 94px;
+}
+
+.l4 {
+    background-color: lightsalmon;
+}
+
+.l5 {
+    background-color: lightpink;
+}
+
+.l6 {
+    background-color: lightyellow;
+}
+
+.l7 {
+    background-color: lightgray;
+}
+
+.l8 {
+    background-color: lavender;
+}
+
+.l9 {
+    background-color: peachpuff;
+}
+
+.l10 {
+    background-color: beige;
+}
+
+.l11 {
+    background-color: aquamarine;
+}
+
+.l12 {
+    background-color: skyblue;
+}
+
+.l13 {
+    background-color: palevioletred;
+}
+
+.l14 {
+    background-color: khaki;
+}
+
+.l15 {
+    background-color: orange;
+}
+
+.l16 {
+    background-color: limegreen;
+}
+
+.l17 {
+    background-color: turquoise;
+}
+
+.l18 {
+    background-color: violet;
+}
+
+#area-reacao {
+    width: 100%;
+    min-height: 330px;
+    border: 2px dashed black;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
